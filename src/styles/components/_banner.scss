@@ -1,0 +1,29 @@
+.banner{
+    background-color: $primary;
+    padding: 20px 0;
+    border-radius: 0 0 60px 60px;
+}
+
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-text{
+    padding: 70px 0;
+
+    & h1{
+        color: $white;
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
+
+.banner-phone{
+    position: relative;
+
+    & img{
+        position: absolute;
+        max-height: 500px;
+    }
+}
