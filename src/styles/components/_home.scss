@@ -1,0 +1,47 @@
+// Our services
+
+.our-services{
+    padding: 50px 50px;
+}
+
+.our-services-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 50px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.services{
+    padding: 0 30px;
+
+    & img{
+        max-width: 180px;
+        margin-bottom: 25px;
+    }
+    & p{
+        margin-bottom: 30px;
+    }
+}
+
+.social-medias{
+    margin-top: -60px;
+    border-radius: 60px 60px 0 0;
+    padding: 70px 0;
+    background-color: $light-grey;
+
+    & .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        & div{
+            margin: auto;
+        }
+
+        & img{
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+}

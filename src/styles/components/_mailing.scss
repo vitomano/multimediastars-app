@@ -1,0 +1,41 @@
+// Mailing
+
+.mailing{
+    padding: 50px 0 180px 0;
+    background-image: url(../../images/mailing/mailing-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 60px 60px 0 0;
+
+    & .input-mailing{
+        width: 300px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        box-shadow: 0 8px 16px 0 rgba(20, 15, 65, 0.5);
+        font-size: 20px;
+    }
+}
+
+.btn-mailing{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid $primary;
+    background-color: $primary;
+    color: $white;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(20, 15, 65, 0.5);
+    font-weight: 500;
+    transition: all .2s ease;
+
+
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+        color: $primary;
+    }
+}

@@ -1,34 +1,70 @@
 .btn{
     display: inline-block;
-    padding: 12px 24px;
-    border: 1px solid $secondary;
-    color: $secondary;
+    padding: 10px 18px;
+    border: 1px solid $primary;
+    background-color: $primary;
+    color: $white;
     border-radius: 25px;
-    font-weight: 400;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(20, 15, 65, 0.5);
     font-weight: 500;
+    transform: translateY(0);
     transition: all .2s ease;
 
+
     &:hover{
-        border: 1px solid $secondary;
-        background-color: $secondary;
+        border: 1px solid $primary;
+        background-color: $white;
         color: $primary;
+        position: relative;
+        transition: all .2s ease;
+        transform: translateY(-5px);
     }
 }
 
-.btn-outline-secondary{
+.btn-outline-primary{
     display: inline-block;
-    padding: 12px 24px;
-    border: 1px solid $secondary;
-    color: $secondary;
+    padding: 10px 18px;
+    border: 1px solid $primary;
+    background-color: $white;
+    color: $primary;
     border-radius: 25px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    box-shadow: 0 8px 16px 0 rgba(20, 15, 65, 0.5);
     font-weight: 500;
+    transform: translateY(0);
     transition: all .2s ease;
 
+
     &:hover{
-        border: 1px solid $secondary;
-        background-color: $secondary;
-        color: $primary;
+        border: 1px solid $primary;
+        background-color: $primary;
+        color: $white;
+        position: relative;
+        transition: all .2s ease;
+        transform: translateY(-5px);
+    }
+}
+
+.btn-white{
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid $white;
+    background-color: $white;
+    color: $primary;
+    border-radius: 25px;
+    font-weight: 400;
+    box-shadow: 0 8px 16px 0 rgba(20, 15, 65, 0.5);
+    font-weight: 500;
+    transform: translateY(0);
+    transition: all .2s ease;
+
+
+    &:hover{
+        border: 1px solid $white;
+        background-color: $primary;
+        color: $white;
+        position: relative;
+        transition: all .2s ease;
+        transform: translateY(-5px);
     }
 }

@@ -13,27 +13,36 @@ body{
 /* FUNCIONES */
 img{max-width: 100%;}
 
+.primary{color: $primary;}
+.secondary{color: $secondary;}
+.white{color: $white;}
+
 p, .text{
     color: $text;
     font-family: $font-text;
-    font-size: 16px; 
-    line-height: 24px;}
+    font-size: 15px; 
+    line-height: 22px;}
 
 h1, h2, h3, h4{
     font-family: $font-title;
-    font-weight: 400;
+    font-weight: 600;
     color: $text;
 }
 
-.h1{font-size: 32px; line-height: 38px;font-weight: 400;}
-.h2{font-size: 24px; line-height: 32px;font-weight: 400;}
-.h3{font-size: 20px; line-height: 28px;font-weight: 400;}
+h1{font-size: 38px; line-height: 38px;}
+h2{font-size: 32px; line-height: 32px;}
+h3{font-size: 24px; line-height: 28px;}
 
 .bold{font-weight: 600;}
 
 a, button{text-decoration: none;}
 .container{
     max-width: 1200px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 600px;
     padding: 0 50px;
     margin: 0 auto;
 }

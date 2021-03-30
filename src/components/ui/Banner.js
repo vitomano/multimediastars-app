@@ -11,14 +11,14 @@ export const Banner = () => {
 
                 <div className="banner-text">
                     <div>
-                        <h1>Boost your</h1>
-                        <TextLoop className="mb-1" interval={3000}>
-                            <h1>Marketing</h1>
-                            <h1>Social Medias</h1>
-                            <h1>Users</h1>
+                        <span>Boost your</span><br />
+                        <TextLoop className="mb-3" interval={3000}>
+                            <span>Marketing</span>
+                            <span>Social Medias</span>
+                            <span>Users</span>
                         </TextLoop>{" "}
                     </div>
-                    <Link to="/" className="btn-outline-secondary">Our Services</Link>
+                    <Link to="/" className="btn-white">Our Services</Link>
                 </div>
 
                 <div className="banner-phone">
