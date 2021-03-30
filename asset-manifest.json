@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/multimediastars-app/static/css/main.aa4f4fbd.chunk.css",
+    "main.js": "/multimediastars-app/static/js/main.8301bdfb.chunk.js",
+    "main.js.map": "/multimediastars-app/static/js/main.8301bdfb.chunk.js.map",
+    "runtime-main.js": "/multimediastars-app/static/js/runtime-main.f5176252.js",
+    "runtime-main.js.map": "/multimediastars-app/static/js/runtime-main.f5176252.js.map",
+    "static/js/2.d601d582.chunk.js": "/multimediastars-app/static/js/2.d601d582.chunk.js",
+    "static/js/2.d601d582.chunk.js.map": "/multimediastars-app/static/js/2.d601d582.chunk.js.map",
+    "index.html": "/multimediastars-app/index.html",
+    "static/css/main.aa4f4fbd.chunk.css.map": "/multimediastars-app/static/css/main.aa4f4fbd.chunk.css.map",
+    "static/js/2.d601d582.chunk.js.LICENSE.txt": "/multimediastars-app/static/js/2.d601d582.chunk.js.LICENSE.txt",
+    "static/media/iPhone_mockup.fff2ef07.png": "/multimediastars-app/static/media/iPhone_mockup.fff2ef07.png",
+    "static/media/icon-1-search.454077e0.svg": "/multimediastars-app/static/media/icon-1-search.454077e0.svg",
+    "static/media/icon-2-phone.679dd942.svg": "/multimediastars-app/static/media/icon-2-phone.679dd942.svg",
+    "static/media/icon-3-browser.90ce24e6.svg": "/multimediastars-app/static/media/icon-3-browser.90ce24e6.svg",
+    "static/media/styles.scss": "/multimediastars-app/static/media/mailing-img.1e71f1ad.jpg",
+    "static/media/ms-logo.9411fffe.svg": "/multimediastars-app/static/media/ms-logo.9411fffe.svg",
+    "static/media/phone-social-medias.0b0720bb.png": "/multimediastars-app/static/media/phone-social-medias.0b0720bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5176252.js",
+    "static/js/2.d601d582.chunk.js",
+    "static/css/main.aa4f4fbd.chunk.css",
+    "static/js/main.8301bdfb.chunk.js"
+  ]
+}
